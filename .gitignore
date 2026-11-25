@@ -1,0 +1,18 @@
+# Local project material and actual collaboration records
+studio-local/
+private/
+.env
+.env.*
+!.env.example
+*.tmp
+*.bak
+__pycache__/
+.DS_Store
+Thumbs.db
+# Keep only the empty workspace template tracked, never actual records there.
+collaboration/workspace/decisions/*
+!collaboration/workspace/decisions/.gitkeep
+collaboration/workspace/discussions/*
+!collaboration/workspace/discussions/.gitkeep
+collaboration/workspace/research/*
+!collaboration/workspace/research/.gitkeep
